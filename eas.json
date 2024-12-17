@@ -1,0 +1,19 @@
+{
+  "cli": {
+    "version": ">= 0.48.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "android":{
+        "buildType": "apk"
+      }
+    }
+  }
+}
